@@ -1,6 +1,6 @@
-print("Please insert first number.")
+print("Please insert 1st number.")
 n1 <- as.integer(readline())
-print("Please insert second number.")
+print("Please insert 2nd number.")
 n2 <- as.integer(readline())
 
 print(
