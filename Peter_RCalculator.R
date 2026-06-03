@@ -5,7 +5,6 @@ calculator <- function() {
   cat("1. Add (+)\n")
   cat("2. Subtract (-)\n")
   cat("3. Multiply (*)\n")
-  cat("4. Divide (/)\n")
   cat("5. Square (^)\n")
   
   # Take input from the user for the operation
