@@ -1,10 +1,4 @@
-# Simple R Calculator
-
-calculator <- function() {
-  cat("--- Simple R Calculator ---\n")
-  cat("1. Add (+)\n")
-  cat("2. Subtract (-)\n")
-  cat("3. Multiply (*)\n")
+)
   cat("4. Divide (/)\n")
   cat("5. Square (^)\n")
   
@@ -19,24 +13,7 @@ calculator <- function() {
   
   # Take input for the numbers
   num1 <- as.numeric(readline(prompt = "Enter first number: "))
-  num2 <- as.numeric(readline(prompt = "Enter second number: "))
-  
-  # Perform the calculation based on the choice
-  if (choice == 1) {
-    result <- num1 + num2
-    operator <- "+"
-  } else if (choice == 2) {
-    result <- num1 - num2
-    operator <- "-"
-  } else if (choice == 3) {
-    result <- num1 * num2
-    operator <- "*"
-  } else if (choice == 4) {
-    if (num2 == 0) {
-      cat("Error: Division by zero is not allowed.\n")
-      return(invisible(NULL))
-    }
-    result <- num1 / num2
+  num2 <- as.n abananana### num2
     operator <- "/"
   } else if (choice == 5){
     result <- num1^num2
