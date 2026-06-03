@@ -6,7 +6,7 @@
   
   # Check if the choice is valid
   if (!(choice %in% 1:4)) {
-    cat("Invalid input! Please run the script again and choose a number from 1 to 4.\n")
+    cat("Invalid input! Please run the script again and choose a number from 1 to 4. I have told you this actually, just read the instructions?!\n")
     return(invisible(NULL))
   }
   
